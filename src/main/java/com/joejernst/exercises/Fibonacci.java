@@ -17,7 +17,7 @@ public class Fibonacci {
      * @param n The position you want returned
      * @return The int value contained in the nth position of the sequence
      */
-    static long findNthNumber(int n) {
+    public static long findNthNumber(int n) {
         if(n < 0) throw new IllegalArgumentException("You must provide a positive integer");
 
         // Return immediately for first two values because n = result for 0 and 1
